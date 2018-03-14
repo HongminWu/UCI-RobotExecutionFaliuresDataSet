@@ -19,4 +19,36 @@ Fx2 Fy2 Fz2 Tx2 Ty2 Tz2
 ......
 Fx15 Fy15 Fz15 Tx15 Ty15 Tz15
 
-where Fx1 ... Fx15 is the evolution of force Fx in the observation window, the same for Fy, Fz and the torques; there is a total of 90 features. 
+where Fx1 ... Fx15 is the evolution of force Fx in the observation window, the same for Fy, Fz and the torques; there is a total of 90 features.
+
+### Number of instances in each dataset
+
+   -- LP1: 88
+   -- LP2: 47
+   -- LP3: 47
+   -- LP4: 117
+   -- LP5: 164
+
+### Class Distribution
+
+   -- LP1: 24% normal
+           19% collision    
+           18% front collision
+           39% obstruction
+   -- LP2: 43% normal
+           13% front collision
+           15% back collision
+           11% collision to the right
+           19% collision to the left
+   -- LP3: 43% ok
+           19% slightly moved
+           32% moved
+            6% lost
+   -- LP4: 21% normal
+           62% collision
+           18% obstruction
+   -- LP5: 27% normal
+           16% bottom collision
+           13% bottom obstruction
+           29% collision in part
+           16% collision in tool
