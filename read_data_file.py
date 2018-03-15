@@ -2,8 +2,8 @@ import numpy as np
 import ipdb
 import csv
 
-txt_file = "lp1.txt"
-fp = open(txt_file)
+data_file = "lp1.data"
+fp = open(data_file)
 labels = []
 ddict  = {}
 line = 'init'
@@ -22,4 +22,3 @@ while line:
     line = fp.readline()
     line = fp.readline()
 print ddict
-ipdb.set_trace()
